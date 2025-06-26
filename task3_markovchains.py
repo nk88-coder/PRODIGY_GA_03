@@ -26,4 +26,5 @@ def generate_text(chain, start_word="I", length=20):
 
 chain = build_markov_chain(sample_text)
 print("📢 Markov Test Output:\n")
-print(generate_text(chain, start_word="I", length=25))
+word=input()
+print(generate_text(chain, start_word=word, length=25))
